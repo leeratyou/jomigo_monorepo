@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "watch": "tsc --watch --preserveWatchOutput --pretty",
     "dev": "cross-env NODE_ENV=development nodemon src/index.ts",
     "build": "rimraf dist && tsc",
     "start": "node dist/index.js"
   },
   "dependencies": {
     "@fastify/cors": "^8.0.0",
+    "@fastify/swagger": "^7.4.1",
     "axios": "^0.27.2",
     "fastify": "^4.2.0"
   },

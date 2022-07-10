@@ -6,6 +6,7 @@ app.listen({ port: config.port }, (err, address) => {
     app.log.error(err)
     process.exit(1)
   } else {
+    console.log('--- index.ts ->  -> app.swagger', app.swagger)
     console.log(`🚀 Fastify server running on address: ${address}`);
   }
 })

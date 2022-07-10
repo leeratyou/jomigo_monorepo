@@ -18,13 +18,13 @@
     "module": "commonjs",
     "declaration": true,
     "removeComments": true,
-    "target": "es2017",
+    "target": "esnext",
     "skipLibCheck": true,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "resolveJsonModule": true,
-    "allowJs": true
+    "allowJs": true,
   },
   "exclude": [
     "node_modules"
