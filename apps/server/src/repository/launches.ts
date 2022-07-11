@@ -1,6 +1,6 @@
 import Api, { IDataProvider } from '../services/api'
 
-interface IOptions {
+export interface IOptions {
   data: IDataProvider
 }
 
