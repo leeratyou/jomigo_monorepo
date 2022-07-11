@@ -8,9 +8,6 @@
     "start": "node dist/index.js",
     "test": "jest"
   },
-  "engines": {
-    "node": ">=16"
-  },
   "dependencies": {
     "@fastify/cors": "^8.0.0",
     "@fastify/swagger": "^7.4.1",
