@@ -8,11 +8,8 @@ const server = fastify({
   logger: true
 })
 
-server
-  .register(cors)
-  .register(routes, { prefix: config.prefix })
-  .then(() => {
-    server.register(swagger)
-  })
+server.register(cors)
+server.register(swagger)
+server.register(routes, { prefix: config.prefix })
 
 export default server
